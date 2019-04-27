@@ -1,0 +1,219 @@
+*{
+	margin: 5px;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.main{
+	padding: 5px;
+	background-color:#fff;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top:30px;
+	margin-right:10px;
+}
+
+ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #F1C27D;
+	background-color:#57412f;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li.active a{
+	background-color: #F1C27D;
+	color: #57412F;
+}
+
+a:hover{
+	background-color:#F1C27D;
+	color: #57412F;
+}
+
+.logo img{
+	height: 80px;
+}
+
+.container{
+	padding: 400px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pic.jpeg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.container h2{
+	text-align: center;
+	font-family: forte;
+	font-size: 50px;
+	color: #fff;
+}
+
+.image{
+	padding: 300px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/just.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.container2 h1{
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	font-family: forte;
+}
+
+.cuisine {
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 3fr 1fr;
+}
+
+.cuisine-left{
+	padding: 40px;
+	height: 60vh;
+	background-image: url(../images/cusine2.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+.cuisine-right h1{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.cuisine-right p{
+	text-align: justify;
+	margin: 30px;
+}
+
+.specials{
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 3fr;
+}
+
+.specials-left h1{
+	margin-top:15px;
+	text-align: center;
+}
+
+.specials-left p{ 
+	text-align: justify;
+	margin: 30px;
+}
+
+.specials-right{
+	padding: 40px;
+	height: 60vh;
+	background-image: url(../images/hi.jpeg);
+	background-size:cover;
+	background-position: bottom;
+}
+
+.foods{
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 2fr 2fr;
+}
+
+.foods-left{
+	display:grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr;
+}
+
+.foods-left{
+	padding: 30px;
+	height: 60vh;
+	background-color: #F1C27D;
+}
+
+.pics{
+	background-image: url(../images/food.jpeg);
+	background-size: cover;
+	background-position: center;
+	margin: 30px;
+	
+}
+
+.caption h1{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.caption p{
+	text-align: justify;
+	margin: 20px;
+}
+
+.food-right{
+	display: grid;
+	grid-gap:0;
+	grid-template-columns: 1fr 1fr;
+}
+
+.food-right{
+	padding: 30px;
+	height: 60vh;
+	background-color:#F1C27D;
+}
+
+.caption2 h1{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.caption2 p{
+	text-align: justify;
+	margin: 20px;
+}
+
+.pics2{
+	background-image: url(../images/hehe.jpeg);
+	background-size: cover;
+	background-position: center;
+	margin: 30px;
+}
+
+.call{
+	padding: 20px;
+	background-color: #57412F;
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 2fr 2fr;
+}
+
+.call-left h2{
+	text-align: left;
+	color: #F1C27D;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.call-left p{
+	margin-top: 10px;
+	color: #fff;
+	margin-left: 20px;
+	
+}
+
+.phone{
+	display: grid;
+	grid-gap: 0;
+	grid-template columns: 1fr 1fr;
+}
+
+.phone-left p{
+	color: #fff;
+	margin: 40px;
+}

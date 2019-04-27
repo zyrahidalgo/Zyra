@@ -1,0 +1,192 @@
+*{
+	margin: 5px;
+	padding:0;
+	font-family: Century Gothic;
+}
+
+.main{
+	padding: 5px;
+	background-color: #fff;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+ul li{
+	display: inline-block;
+	padding:0 15px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #F1C27D;
+	background-color: #57412F;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li.active above{
+	background-color:#F1C27D;
+	color: #57412F;
+}
+
+a:hover{
+	background-color: #F1C27D;
+	color: #57412F;
+}
+
+.logo img{
+	height: 80px;
+}
+
+.container{
+	padding:400px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/jeje.jpeg);
+	background-size: cover;
+}
+
+.container h1{
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	font-family: forte;
+}
+
+.container2{
+	display:grid;
+	grid-gap: 0;
+	grid-template-columns: 3fr 1fr;
+}
+
+.container2-left{
+	padding: 30px;
+	height: 50vh;
+}
+
+.container2-left h1{
+	text-align: center;
+	margin: 10px;
+}
+
+.container2-left p{
+	text-align: justify;
+	margin-top: 15px;
+}
+
+.container2-right{
+	background-image: url(../images/books.jpg);
+	background-size:cover;
+	margin: 10px;
+}
+
+.services{
+	padding: 40px;
+	background-color: #57412F;
+}
+
+.services h1{
+	text-align: center;
+	font-family: forte;
+	color: #F1C27D;
+}
+
+.service2{
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.service3 h3{
+	padding: 5px;
+	background-color: #F1C27D;
+	text-align: center;
+	color: #57412F;
+	
+}
+
+.service4 h3{
+	padding:5px;
+	background-color: #F1C27D;
+	text-align: center;
+	color: #57412F;
+	
+}
+
+.service5 h3{
+	padding: 5px;
+	background-color: #F1C27D;
+	text-align: center;
+	color: #57412F;
+}
+
+.service6{
+	padding: 5px;
+	background-color: #F1C27D;
+	text-align: center;
+	color: #57412f;
+}
+
+.coffee-menu{
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 2fr 2fr;
+}
+
+.coffee-menu{
+	padding: 30px;
+	height: 60vh;
+}
+
+.left{
+	background-image: url(../images/5.jpeg);
+	background-size: cover;
+}
+
+.right h1{
+	text-align: center;
+}
+
+.right p{
+	text-align: justify;
+	margin-top: 15px;
+	margin-left: 30px;
+}
+
+.call{
+	padding: 20px;
+	background-color: #57412F;
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 2fr 2fr;
+}
+
+.call-left h2{
+	text-align: left;
+	color: #F1C27D;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.call-left p{
+	margin-top: 10px;
+	color: #fff;
+	margin-left: 20px;
+	
+}
+
+.phone{
+	display: grid;
+	grid-gap: 0;
+	grid-template columns: 1fr 1fr;
+}
+
+.phone-left p{
+	color: #fff;
+	margin: 40px;
+}
+	

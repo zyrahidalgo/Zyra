@@ -1,0 +1,185 @@
+* {
+	margin: 5px;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.main{
+	padding: 5px;
+	background-color:#fff;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top:30px;
+	margin-right:10px;
+}
+
+ul li{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #F1C27D;
+	background-color:#57412f;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li.active a{
+	background-color: #F1C27D;
+	color: #57412F;
+}
+
+a:hover{
+	background-color:#F1C27D;
+	color: #57412F;
+}
+
+.logo img{
+	height: 80px;
+}
+
+.container {
+	padding: 300px;
+	background-image:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/h.jpeg);
+	background-size: cover;
+}
+
+h1 {
+	font-family: forte;
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+}
+
+.cat {
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr;
+}
+
+.main-article-left {
+	padding: 40px;
+	height: 60vh;
+	background-color: #fff;
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	margin-top: 40px;
+}
+
+
+.main-article-right{
+	padding: 40px;
+	height: 60vh;
+	background-image: url(../images/m.jpeg);
+	background-size: cover;
+}
+
+.dog{
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr;
+}
+
+.dog-left{
+	padding: 40px;
+	height: 60vh;
+	background-image: url(../images/hhh2.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.dog-right{
+	padding: 40px;
+	height: 60vh;
+	background-color: #fff;
+}
+
+.bat{
+	background-color:#fff;
+	padding: 50px;
+}
+
+.bat h1{
+	font-family: Century Gothic;
+	color:black;
+}
+
+.bat h2{
+	text-align: center;
+	font-family: forte;
+	margin-top: 10px;
+	color: black;
+}
+.bat h3{
+	text-align: center;
+	margin-top: 20px;
+	color: black;
+	
+}
+
+.bat2{
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 1fr 1fr;
+}
+
+.bat2-left p{
+	text-align: center;
+	color: black;
+}
+
+.bat2-right p{
+	text-align: center;
+	color:black;
+}
+
+.call{
+	padding: 40px;
+	background-color: #57412F;
+	display: grid;
+	grid-gap: 0;
+	grid-template-columns: 2fr 2fr;
+
+}
+
+.call-left h2{
+	text-align: left;
+	color: #F1C27D;
+}
+
+.call-left p{
+	margin-top: 10px;
+	color: #fff;
+}
+
+.phone{
+	display: grid;
+	grid-gap: 0;
+	grid-template columns: 1fr 1fr;
+}
+
+.phone-left p{
+	color: #fff;
+}
+
+.locate{
+	padding: 60px;
+	height:80vh;
+	background-image: url(../images/ss.png);
+	background-size: cover;
+	background-position: center;
+}
+
+
+	
